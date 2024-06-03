@@ -16,12 +16,11 @@ df['gluc'] = df['gluc'].apply(lambda x: 0 if x == 1 else 1)
 # 4 - Draw the Categorical Plot in the draw_cat_plot function
 def draw_cat_plot():
       
-    data = df, x = 'cholesterol', y = 'gluc', hue = 'smoke', col = 'cardio', kind = 'bar'
     # 5 - Create a DataFrame for the cat plot using pd.melt with values from cholesterol, gluc, smoke, alco, active, and overweight in the df_cat variable.
-    df_cat = pd.melt(data, id_vars = ['cardio'], value_vars = ['cholesterol', 'gluc', 'smoke', 'alco', 'active', 'overweight']
+    df_cat = pd.melt(data, id_vars = ['cardio'], value_vars = ['cholesterol', 'gluc', 'smoke', 'alco', 'active', 'overweight'])
 
     # 6 - Group and reformat the data to split it by 'cardio'. Show the counts of each feature. You will have to rename one of the columns for the catplot to work correctly.
-    df_cat = df_cat.groupby(['cardio', 'variable', 'value'], as_index = False
+    df_cat = df_cat.groupby(['cardio', 'variable', 'value'], as_index = False)
 
                                 
     # 7 - Draw the catplot with 'sns.catplot()'
@@ -41,7 +40,7 @@ def draw_heat_map():
     
     
     # 11 - Clean the data
-    df_heat = df[(df['ap_lo'] <= df['ap_hi']) & (df['height'] >= df['height'].quantile(0.025))
+    df_heat = df[(df['ap_lo'] <= df['ap_hi']) & (df['height'] >= df['height'].quantile(0.025))]
 
     # 12 - Calculate the correlation matrix
     corr = df_heat.corr()
