@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+
 
 # 1 - Import the data from medical_examination.csv and assign it to the df variable
 df = pd.read_csv('medical_examination.csv')
