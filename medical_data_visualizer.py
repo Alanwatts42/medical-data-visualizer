@@ -3,8 +3,12 @@ import pandas as pd
 import seaborn as sns
 
 
+# %% [markdown]
+#
+
 # %%
 # 1 - Import the data from medical_examination.csv and assign it to the df variable
+
 df = pd.read_csv('medical_examination.csv')
 
 # %%

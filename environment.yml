@@ -1,0 +1,9 @@
+name: medical-data-visualizer
+channels:
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - seaborn
+  - matplotlib
+
