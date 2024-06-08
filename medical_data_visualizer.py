@@ -46,7 +46,6 @@ def draw_heat_map():
     # weight is more than the 97.5th percentile
     df_heat = df_heat[df_heat['weight'] <= df_heat['weight'].quantile(0.975)]
 
-    
     # 12 - Calculate the correlation matrix
     corr = df_heat.corr()
 
