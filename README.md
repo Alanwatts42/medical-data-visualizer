@@ -16,7 +16,7 @@ Project Replit Link:
 <br>
 
 
-![Figure 1](FIgure_1.png "Figure 1")
+![Figure 1](Figure_1.png)
 
 <br>
 
