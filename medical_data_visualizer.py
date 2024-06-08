@@ -52,4 +52,4 @@ def draw_heat_map():
 
     # 16 - Do not modify the next two lines
     fig.savefig('heatmap.png')
-    return fi
+    return fig
