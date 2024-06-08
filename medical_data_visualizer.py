@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import pandas as pd
 import seaborn as sns
-import numpy as np    
+import numpy as np
+import matplotlib.pyplot as plt
 # 1 - Import the data from medical_examination.csv and assign it to the df variable
-
 df = pd.read_csv('medical_examination.csv')
 
 # 2 - Create the overweight column in the df variable
@@ -40,11 +40,11 @@ def draw_heat_map():
     # diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))
     df_heat = df[(df['ap_lo'] <= df['ap_hi']) & (df['height'] >= df['height'].quantile(0.025))]
     # height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['heigth'].quantile(0.025)))
-    df_heat = df_heat[(df_heat['height'] <= df_heat['height'].quantile(0.975))
+    df_heat = df_heat[df_heat['height'] <= df_heat['height'].quantile(0.975)]
     # weight is less than the 2.5th percentile
     df_heat = df_heat[(df_heat['weight'] >= df_heat['weight'].quantile(0.025))]
     # weight is more than the 97.5th percentile
-    df_heat = df_heat[(df_heat['weight'] <= df_heat['weight'].quantile(0.975))]
+    df_heat = df_heat[df_heat['weight'] <= df_heat['weight'].quantile(0.975)]
 
     
     # 12 - Calculate the correlation matrix
