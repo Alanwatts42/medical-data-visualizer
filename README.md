@@ -16,5 +16,23 @@ Project Replit Link:
 <br>
 
 
-![Figure 1](Figure_1.png)
+# Figure 1
 
+
+![Figure 1](examples/Figure_1.png)
+
+
+<br>
+
+---
+
+
+<br>
+
+
+# Figure 2
+
+
+![Figure 2](examples/Figure_2.png)
+
+<br>
