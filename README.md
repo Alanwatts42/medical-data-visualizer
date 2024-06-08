@@ -18,12 +18,3 @@ Project Replit Link:
 
 ![Figure 1](Figure_1.png)
 
-<br>
-
----
-
-<br>
-
-![Figure_2](catplot.png "Figure 2")
-
-<br>
