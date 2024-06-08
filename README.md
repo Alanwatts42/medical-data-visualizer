@@ -8,3 +8,22 @@ Project Instructions:
 Project Replit Link:
 [https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer](https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer)
 
+
+<br>
+
+---
+
+<br>
+
+
+![Figure 1](FIgure_1.png "Figure 1")
+
+<br>
+
+---
+
+<br>
+
+![Figure_2](catplot.png "Figure 2")
+
+<br>
