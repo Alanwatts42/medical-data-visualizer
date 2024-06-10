@@ -93,7 +93,14 @@ def draw_heat_map():
 ```
 
 ## Heat Map:
-![Figure 2](heatmap.png)
+
+![example](examples/Figure_2.png)
+
+<br>
+
+![heat map](heatmap.png)
+
+
 
 <br>
 
