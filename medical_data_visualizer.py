@@ -3,6 +3,8 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
+
+
 # 1 - Import the data from medical_examination.csv and assign it to the df variable
 df = pd.read_csv('medical_examination.csv')
 # 2 - Create the overweight column in the df variable
