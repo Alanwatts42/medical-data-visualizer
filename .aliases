@@ -1,0 +1,9 @@
+
+function gitup() {
+	git add --all
+	git commit -m "$1"
+	git push
+}
+
+
+alias gitcommit="git add --all && git commit -m"
