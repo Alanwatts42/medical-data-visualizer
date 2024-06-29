@@ -31,10 +31,11 @@ def draw_cat_plot():
 # 10 - Draw the Heat Map in the draw_heat_map function
 def draw_heat_map(): 
     # 11 - Clean the data
+
     # diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))
-    df_heat = df[(df['ap_lo'] <= df['ap_hi']) & (df['height'] >= df['height'].quantile(0.025))]
     # height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['heigth'].quantile(0.025)))
-    df_heat = df_heat[df_heat['height'] >= df_heat['height'].quantile(0.975)]
+    df_heat = df[(df['ap_lo'] >= df['ap_hi']) & (df['height'] >= df['height'].quantile(0.025))]
+    # df_heat = df_heat[df_heat['height'] >= df_heat['height'].quantile(0.975)]
     # weight is less than the 2.5th percentile
     df_heat = df_heat[(df_heat['weight'] >= df_heat['weight'].quantile(0.025))]
     # weight is more than the 97.5th percentile
