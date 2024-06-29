@@ -1,16 +1,68 @@
 # Medical Data Visualizer
 
+[Evan Sherwood](https://github.com/Alanwatts42)
+
 This is my forked version of the *Medical Data Visualizer* project, which is part of the "Data Analysis with Python" course on FreeCodeCamp.com. This version contains my additions to the primary python file medical_data_visualizer.py. Once I can run this project and pass the unit tests, I'll be submitting it for review so I can complete the course.
 
-Project Instructions:
-[https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer)
+<br>
+<br>
+<br>
 
-Project Replit Link:
-[https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer](https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer)
+# Project Instructions
+
+Visualize and make calculations from medical examination data using `matplotlib`, `seaborn`, and `pandas`. Dataset values were collected during medical examinations.
 
 <br>
 
-# Results:
+
+### **Data Description**: <br>
+
+The rows represent patients and the columns represent information like body measurements, results from various blood tests, and lifestyle choices. You will use the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
+
+<br>
+<br>
+
+### Variables
+---
+
+
+| Feature | Variable Type | Variable | Value Type |
+| -- | -- | -- | -- | 
+| Age | Objective Feature | `age` | int (days) |
+| Height | Objective Feature | `height` | int (cm) |
+| Weight | Objective Feature | `weight` | weight (kg) | 
+| Gender | Objective Feature | `gender` | categorical code |
+| Systolic blood pressure | Examination Feature | `ap_hi` | int |
+| Diastolic blood pressure | Examination Feature | `ap_lo` | int |
+| Cholesterol | Examination Feature | `gluc` | 1: Normal, 2: Above Normal, 3: Well Above Normal |
+| Smoking | Subjective Feature | `smoke` | binary |
+| Alcohol Intake | Subjective Feature | `alco` | binary |
+| Physical Activity | Subjective Feature | `active` | binary |
+| Presence or absence of cardiovascular disease | Target Variable | `cardio` | binary |
+
+
+
+<br>
+<br>
+<br>
+
+
+---
+
+
+
+
+FreeCodeCamp Project Instructions: <br>[https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer)
+
+Project Replit Link: <br>
+[https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer](https://replit.com/@Alanwatts42/boilerplate-medical-data-visualizer)
+
+<br>
+<br>
+<br>
+
+
+# Project Plots:
 
 ### Imports and Data Normalization:
 ```python
