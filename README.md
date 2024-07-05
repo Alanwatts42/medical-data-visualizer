@@ -100,9 +100,21 @@ def draw_cat_plot():
 ```
 
 
-### Category Plot:
+# Category Plot:
 
-![Figure 1](catplot.png)
+### Example:
+
+
+![Figure 1](examples/Figure_1.png)
+
+
+<br>
+
+
+### Catplot file generated when running main.py:
+
+
+![Category Plot](catplot.png)
 
 
 <br>
@@ -144,7 +156,7 @@ def draw_heat_map():
     return fig
 ```
 
-## Heat Map:
+# Heat Map:
 
 ![example](examples/Figure_2.png)
 
