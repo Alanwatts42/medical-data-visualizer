@@ -9,7 +9,3 @@ mdv.draw_heat_map()
 # Run unit tests automatically
 main(module='test_module', exit=False)
 
-
-if __name__ == '__main__':
-    print("mask = ")
-    None
