@@ -54,7 +54,7 @@ def draw_heat_map():
         fmt='.1f', 
         linewidths=.5, 
         vmax=.3, 
-        #center=0, 
+        center=0, 
         square=True, 
         cbar_kws={'shrink': .5}
         )
