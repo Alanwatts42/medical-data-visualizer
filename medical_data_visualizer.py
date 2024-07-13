@@ -40,7 +40,7 @@ def draw_heat_map():
     # weight is more than the 97.5th percentile
     df_heat = df['weight'] <= df['weight'].quantile(0.975)
     # 12 - Calculate the correlation matrix
-    corr = df_heat.corr()
+    corr = df_heat.corr(other=None)
     # 13 - Generate a mask for the upper triangle
     mask = np.triu(corr)
     # 14 - Set up the matplotlib figure
