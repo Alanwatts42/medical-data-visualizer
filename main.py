@@ -10,6 +10,4 @@ mdv.draw_heat_map()
 main(module='test_module', exit=False)
 
 
-if __name__ == '__main__':
-    print("mask = ")
-    None
+# if __name__ == '__main__':
